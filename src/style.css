@@ -91,11 +91,34 @@ form > h1 {
 }
 
 @media screen and (max-width: 1000px) {
-  .result {
-    width: auto;
-    height: auto;
-    display: flex;
-    margin-right: auto;
-    margin-left: auto;
-  }
+    form {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        float: none;
+        align-items: flex-start;
+    }
+    .result {
+        width: 100%;
+        height: auto;
+        margin-right: 0;
+        margin-left: 0;
+        float: none;
+    }
+    nav {
+        flex-wrap:wrap;
+    }
+    label {
+        font-size: 14px;
+        margin-right: 10px;
+    }
+    #btnCode {
+        font-size: 14px;
+        width: 100%;
+    }
+    .Code {
+        width: 100%;
+        height: auto;
+    }
 }
+
